@@ -33,7 +33,7 @@ namespace WindowsFormsApplication1
 				rows = int.Parse(textBox1.Text.ToString());
 				columns = int.Parse(textBox2.Text.ToString());
 				mines = int.Parse(textBox3.Text.ToString());
-				if (mines > rows * columns)
+				if (mines >= rows * columns)
 				{
 					MessageBox.Show("Too many mines");
 					return;

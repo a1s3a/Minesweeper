@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1
 {
@@ -24,7 +21,7 @@ namespace WindowsFormsApplication1
 
 		public List<Tuple<int, int, int>> cellClicked(int row, int column)
 		{
-			List < Tuple < int, int, int>> ret =  matrix.view(row, column);
+			List<Tuple<int, int, int>> ret = matrix.view(row, column);
 
 			for (int i = 0; i < ret.Count; ++i)
 			{

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1
 {
@@ -92,7 +89,7 @@ namespace WindowsFormsApplication1
 			}
 		}
 
-		public List<Tuple<int, int, int>> view (int row, int column)
+		public List<Tuple<int, int, int>> view(int row, int column)
 		{
 			toView.Clear();
 			if (viewd[row, column]) return toView;
